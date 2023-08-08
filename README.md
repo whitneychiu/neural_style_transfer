@@ -1,5 +1,5 @@
 # Neural Style Transfer
-This is the implementation of the neural style transfer [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)] The core idea is to take two images (a content image and a style image), and produce a new image that reflects the content of one but the artistic ”style” of the other. In this implementation, we use SqueezeNet (directly from torchvision) as our feature extractor.
+This is the implementation of the neural style transfer [[paper](https://arxiv.org/abs/1312.5602)] The core idea is to take two images (a content image and a style image), and produce a new image that reflects the content of one but the artistic ”style” of the other. In this implementation, we use SqueezeNet (directly from torchvision) as our feature extractor.
 
 ### Dependencies
 Refer to `environment.yaml`
